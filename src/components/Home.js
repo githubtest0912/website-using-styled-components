@@ -1,10 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
 
+const Container = styled.div`
+background-color: yellow;
+`
 const Home = () => {
   return (
-    <div>
+    <Container>
       Home
-    </div>
+    </Container>
   )
 }
 
