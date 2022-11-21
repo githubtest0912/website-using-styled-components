@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import { NavbarContainer } from '../styles/Navbar.styles';
 
 const Navbar = () => {
-  return (
-    <div>
-      Navbar
-    </div>
-  )
-}
+  return <NavbarContainer></NavbarContainer>;
+};
 
-export default Navbar
+export default Navbar;
